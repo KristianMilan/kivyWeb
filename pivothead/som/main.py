@@ -9,7 +9,7 @@ Button:
 class ServiceApp(App):
     def build(self):
         from service import main
-        main.start_web()
+        # main.start_web()
         return Builder.load_string(kv)
 
 
